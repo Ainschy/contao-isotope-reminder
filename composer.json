@@ -1,0 +1,40 @@
+{
+  "name": "ainschy/contao-isotope-reminder",
+  "description": "Send reminder notifications for invoice and pre-cash buyer",
+  "keywords": ["contao", "isotope", "reminder"],
+  "type": "contao-bundle",
+  "homepage": "https://www.oliverwillmes.de",
+  "license": "LGPL-3.0+",
+  "authors": [{
+    "name": "Oliver Willmes",
+    "homepage": "https://www.oliverwillmes.de",
+    "role": "Project leader"
+  }],
+  "support": {
+    "issues": "https://github.com/Ainschy/contao-isotope-reminder/issues",
+    "wiki": "https://github.com/Ainschy/contao-isotope-reminder/wiki",
+    "source": "https://github.com/Ainschy/contao-isotope-reminder"
+  },
+  "require": {
+    "php": ">=7.1.0",
+    "contao/core-bundle": ">=4.4.0,<5.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src/Resources/contao/"
+    ],
+    "exclude-from-classmap": [
+      "src/Resources/contao/config/",
+      "src/Resources/contao/languages/"
+    ],
+    "psr-4": {
+      "Willmes\\IsotopeReminderBundle\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "1.0.x-dev"
+    },
+    "contao-manager-plugin": "Willmes\\IsotopeReminderBundle\\ContaoManager\\Plugin"
+  }
+}

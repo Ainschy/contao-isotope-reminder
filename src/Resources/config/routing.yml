@@ -1,0 +1,3 @@
+reminder_autoreminder:
+    resource: "@WillmesIsotopeReminderBundle/Controller"
+    type: annotation
