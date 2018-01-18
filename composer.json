@@ -4,7 +4,7 @@
   "keywords": ["contao", "isotope", "reminder"],
   "type": "contao-bundle",
   "homepage": "https://www.oliverwillmes.de",
-  "license": "LGPL-3.0+",
+  "license": "LGPL-3.0-or-later",
   "authors": [{
     "name": "Oliver Willmes",
     "homepage": "https://www.oliverwillmes.de",
