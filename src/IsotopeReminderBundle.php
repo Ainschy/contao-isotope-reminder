@@ -13,10 +13,10 @@ namespace Willmes\IsotopeReminderBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
- * Configures the Contao BackupDB bundle.
+ * Configures the Isotope Reminder bundle.
  *
  * @author Oliver Willmes
  */
-class WillmesIsotopeReminderBundle extends Bundle
+class IsotopeReminderBundle extends Bundle
 {
 }
