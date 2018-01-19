@@ -31,14 +31,16 @@ class Reminder extends \Frontend
 
     public function run( )
     {
-
+/*
         if( \Config::get('reminder_key') != '' ) {
             if( \Input::get( \Config::get('reminder_key') ) === NULL ) {
                 die( 'You cannot access this file directly!' );
             }
         }
-
-        return;
+*/
+        return new Response(
+			'<html><body>Here i\'am!</body></html>'
+		);
     }
 }
 
