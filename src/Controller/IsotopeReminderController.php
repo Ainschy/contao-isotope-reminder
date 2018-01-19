@@ -30,7 +30,7 @@ class IsotopeReminderController extends Controller
      *
      * @return Response
      *
-     * @Route("/startreminder", name="reminder_isoreminder")
+     * @Route("/startreminder", name="reminder_autoreminder")
      */
     public function ReminderAction()
     {
